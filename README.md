@@ -1,4 +1,12 @@
 # ESP32 - Elechouse VR3
+
+## Changes in this fork
+This fixes a bug which made the ESP32 version of frankvanhooft broken for commands containing a length of 2 or more, resulting in the module not working for training or loading voice commands (`train 8` or `load 8`). Unfortunately this was apparently overlooked when committing because he did a great job and his code works for me with this small fix.
+
+---
+
+## Original description
+
 ESP32 Elechouse Voice Recognition Module V3 Support
 
 ![ESP32 - Elechouse VR3](images/ESP32-VR3-modules.jpg)
